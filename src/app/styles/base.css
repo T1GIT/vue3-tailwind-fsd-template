@@ -1,0 +1,14 @@
+@layer base {
+  html {
+    @apply pt-[env(safe-area-inset-top)] pr-[env(safe-area-inset-right)] pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)];
+  }
+
+  html, body, #app {
+    @apply size-full overflow-auto;
+  }
+
+  #app {
+    @apply touch-manipulation select-none;
+  }
+}
+

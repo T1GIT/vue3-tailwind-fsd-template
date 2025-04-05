@@ -1,0 +1,13 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+@layer components {
+  [class^="bi-"],
+  [class*=" bi-"] {
+    @apply !leading-none;
+
+    &::before {
+      @apply !align-middle;
+    }
+  }
+}
